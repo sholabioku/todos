@@ -16,6 +16,12 @@ addForm.addEventListener('submit', e => {
   const todo = addForm.add.value.trim();
   if (todo.length) {
     generateTemplate(todo);
-    addForm.reset()
+    addForm.reset();
+  }
+});
+
+list.addEventListener('click', e => {
+  if (e.target.classList.contains('delete')) {
+    e.target.parentElement.remove();
   }
 });
