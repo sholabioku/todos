@@ -1,0 +1,23 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sholabioku/todos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sholabioku/todos/issues"
+  },
+  "homepage": "https://sholabioku.github.io/todos",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
